@@ -1,0 +1,130 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.navigation {
+    display: flex;
+}
+
+.header .logo {
+    margin-right: 93px;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-item {
+    &:not(:last-child) {
+        margin-right: 50px;
+        }
+}
+
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-font);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.navigation-adress-item {
+    &:not(:last-child) {
+     margin-right: 30px;
+     }
+}
+
+.navigation-link.current {
+    position: relative;
+    padding-bottom: 32px;
+
+    &::after {
+        content: "";
+
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        bottom: 0;
+
+        background: var(--accent-color);
+        border-radius: 2px;
+    }
+}
+
+.navigation-adress {
+    display: flex;
+    margin-left: auto;
+}
+
+.mail-icon {
+    margin-right: 10px;
+    fill: var(--secondary-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .mail-link:hover &,
+    .mail-link:focus & {
+        fill: var(--accent-color);
+    }
+
+}
+
+.tel-icon {
+    margin-right: 10px;
+    fill: var(--secondary-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .tel-link:hover &,
+    .tel-link:focus & {
+        fill: var(--accent-color);
+    }
+}
+
+.mail-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}

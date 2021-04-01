@@ -1,0 +1,27 @@
+.address-list {
+    margin-top: 20px;
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.adress-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.adress-link-light {
+    color: #ffffff;
+}
+
+.adress-link-dark {
+    color: #ffffff99;
+}
+
+.address-item>.adress-link-light {
+    color: #FFFFFF;
+}
