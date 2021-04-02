@@ -3,5 +3,35 @@
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+
+    .footer & {
+        display: flex;
+        align-items: baseline;
+    }
     
+    .header & {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero & {
+        align-items: center;
+    }
+
+    .navigation-projects & {
+        display: flex;
+        justify-content: center;
+    }
+
+    .priorities & {
+        display: flex;
+    }
+
+    .team & {
+        align-items: center;
+    }
+
+    .work & {
+        align-items: center;
+    }
 }

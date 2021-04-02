@@ -3,10 +3,6 @@
     padding-bottom: var(--padding-bottom-section);
 }
 
-.work .container {
-    align-items: center;
-}
-
 .work-list {
     display: flex;
     flex-wrap: wrap;
@@ -14,23 +10,17 @@
     margin-top: calc(-1 * var(--margin-left-top));
 }
 
-.work-item {
+.work-list__item {
     flex-basis: calc(100% / 3 - var(--margin-left-top));
     margin-left: var(--margin-left-top);
     margin-top: var(--margin-left-top);
     position: relative;
 }
 
-.work>.container .title {
-    margin-bottom: var(--margin-bottom-title);
-}
-
-.work-item-description {
+.work-list__item-description {
+    @include font(14px, 700, 16px);
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;

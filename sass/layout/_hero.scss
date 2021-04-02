@@ -16,27 +16,19 @@
     background-size: cover;
 }
 
-.hero .container {
-    align-items: center;
-}
-
-.hero-title {
+.hero__title {
+    @include font(44px, 900, 60px);
     max-width: 696px;
     margin: 0 auto 30px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
-.hero-btn {
+.button {
+    @include font(16px, 700, 30px);
     min-width: 200px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;

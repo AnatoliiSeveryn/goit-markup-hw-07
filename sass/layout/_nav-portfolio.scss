@@ -1,8 +1,3 @@
-.navigation-projects .container {
-    display: flex;
-    justify-content: center;
-}
-
 .navigation-projects {
     padding-top: var(--padding-top-section);
     padding-bottom: var(--padding-bottom-section);
@@ -21,10 +16,8 @@
 }
 
 .navigation-btn {
+    @include font(16px, 500, 26px);
     min-width: 73px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -47,4 +40,3 @@
             border-radius: 4px;
         }
 }
-
