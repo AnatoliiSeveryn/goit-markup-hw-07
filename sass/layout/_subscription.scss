@@ -1,10 +1,10 @@
-.subscription-container {
+.subscription {
     width: 570px;
     height: 86px;
     margin-left: auto;
 }
 
-.subscription-title {
+.subscription__title {
     @include font(14px, 700, 16px);
     display: block;
     font-family: var(--main-font);
@@ -15,14 +15,14 @@
     margin-bottom: 20px;
 }
 
-.subscription-form {
+.subscription__form {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.subscription-input {
+.subscription__input {
     display: inline-block;
     width: 358px;
     height: 50px;
@@ -48,7 +48,7 @@
     }
 }
 
-.subscription-btn {
+.subscription__btn {
     position: relative;
     width: 200px;
     height: 50px;
@@ -80,11 +80,11 @@
     }
 }
 
-.subscription-icon {
-    position: absolute;
-    top: 50%;
-    right: 28px;
-    transform: translateY(-50%);
-    fill: var(--color-active-icon);
+// .subscription-icon {
+//     position: absolute;
+//     top: 50%;
+//     right: 28px;
+//     transform: translateY(-50%);
+//     fill: var(--color-active-icon);
 
-}
+// }

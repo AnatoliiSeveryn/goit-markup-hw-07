@@ -7,11 +7,9 @@
         margin-bottom: 50px;
     }
 
-    .team>.container & {
-        margin-bottom: var(--margin-bottom-title);
-    }
-
+    .team>.container &,
     .work>.container & {
         margin-bottom: var(--margin-bottom-title);
     }
+
 }

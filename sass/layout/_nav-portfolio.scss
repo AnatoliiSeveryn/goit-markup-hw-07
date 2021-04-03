@@ -4,18 +4,18 @@
 
 }
 
-.navigation-projects-list {
+.navigation-projects__list {
     display: flex;
     margin-bottom: 56px;
 }
 
-.navigation-projects-item {
+.navigation-projects__item {
     &:not(:last-child) {
      margin-right: 8px;
      }
 }
 
-.navigation-btn {
+.navigation-projects__button {
     @include font(16px, 500, 26px);
     min-width: 73px;
     text-align: center;
